@@ -7,11 +7,7 @@ app.get('/', (req, res)=>{
     res.send('OLA MUNDO')
 }
 );
-app.get('/vistante',(req,res)=>{
-    console.log("Acessou a rota de mensagens",mensagem);
-    
-}
-);
+
 app.listen (port, ()=>{
     console.log('Mensagem de boas vindas ${port}')
-  });   
+  }); 
